@@ -1,0 +1,23 @@
+import java.util.Scanner;
+public class increase_Tapadar {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter 3 numbers that are double.");
+		double userNumber = input.nextDouble();
+		System.out.println("The three numbers entered are " + method1(userNumber));
+		
+		public static double method1(double result) {
+		System.out.print("hello");
+		}
+	
+		
+		
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+import java.util.Scanner;
+public class Tapadar_7c {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("How large a triangle do you want?");
+		int userSize = input.nextInt();
+		
+		
+		for(int row = 1; row <= userSize; row++) {
+			for(int column = 1; column <= row; column--){
+				System.out.print("*");
+			}
+			System.out.println();
+		}
+		
+		
+		
+		
+		
+		input.close();
+	}
+
+}

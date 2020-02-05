@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TestOrphan_Tapadar",
+            "request": "launch",
+            "mainClass": "TestOrphan_Tapadar",
+            "projectName": "FinalProject"
+        }
+    ]
+}

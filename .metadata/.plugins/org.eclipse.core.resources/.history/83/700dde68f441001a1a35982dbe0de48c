@@ -1,0 +1,32 @@
+package week1;
+
+public class week1 {
+
+	public static void main(String[] args) {
+		
+		
+		message1();
+		message2();
+		printWarning();
+	
+		System.out.println((double)19/5);
+}
+	
+	//Methods
+	public static void message1() {
+		System.out.println("This is message1.");
+	}
+	
+	public static void message2() {
+			System.out.println("This is message2.");
+			message1();
+			System.out.println("Done with message2.");
+	}
+	
+		
+	public static void printWarning() {
+		System.out.println("This product causes cancer");
+		System.out.println("in lab rats and humans.");
+		}
+	
+}

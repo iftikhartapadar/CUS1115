@@ -1,0 +1,30 @@
+import java.util.Scanner;
+public class increase_Tapadar {
+
+	public static void main(String[] args) {
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("Enter 3 numbers that are double.");
+		double number = input.nextDouble();
+		System.out.println("The three numbers entered are " + method1(number));
+	}
+	
+	
+	public static boolean method1(double result) {
+		Scanner input = new Scanner(System.in);
+		double userNumber = input.nextDouble();
+		double lastInteger = userNumber;
+		
+		for(int i=1;i<=2;i++) {
+			userNumber = input.nextDouble();
+			if(userNumber > lastInteger) {
+				return true;
+			}
+			return false;
+		}
+		
+		
+
+		}
+	
+}

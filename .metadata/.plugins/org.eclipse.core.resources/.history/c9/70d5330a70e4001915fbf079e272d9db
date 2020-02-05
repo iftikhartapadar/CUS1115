@@ -1,0 +1,33 @@
+/* Author: Iftikhar Tapadar
+   Date: 09/25/2019
+   Section: 1115
+   Homework Week 4
+   TapadarProblem4a
+*/
+import java.util.Scanner;
+public class TapadarProblem4b {
+	
+	public static void main (String[] args) {
+		
+		//Created input object that uses Scanner
+		Scanner input = new Scanner(System.in);
+		
+		//Prompts user to enter year and stores it into userYear variable
+		System.out.print("Enter a year to verify its a leap year.");
+		int userYear = input.nextInt();
+		
+		if (userYear % 4 == 0) {
+			if (userYear % 100 == 0) {
+				if (userYear % 400 == 0) {
+					System.out.print(userYear + " is a leap year.");
+				}
+			}
+		}
+		else {
+			System.out.println(userYear + " is not a leap year.");
+		}
+		
+		input.close();
+	}
+
+}
